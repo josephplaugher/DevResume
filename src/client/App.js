@@ -3,9 +3,12 @@ import { Route } from 'react-router-dom'
 import EB from 'Util/EB'
 import Nav from './mainmenu/Nav'
 import Routes from './Routes'
-import profilepicture from './profile-picture-vertical.png'
-import reactlogo from './reactlogo.png'
-import nodelogo from './nodelogo.png'
+import profilepicture from './images/profile-picture-vertical.png'
+import reactlogo from './images/reactlogo.png'
+import nodelogo from './images/nodelogo.png'
+import webpacklogo from './images/webpacklogo.png'
+import npmlogo from './images/npmlogo.png'
+import 'scss/main.scss'
 import 'scss/logo.scss'
 
 class App extends React.Component {
@@ -17,12 +20,12 @@ class App extends React.Component {
     render() {
         return (
             <div id="container">
-                <div className="grid-header">
+                <div id="headshot" className="profile-grid">
                     <img src={profilepicture} alt="profile image" />
                 </div>
 
                 <EB comp="Nave in App.js">
-                    <div className="nav" id="nav-container">
+                    <div className="nav-container">
                         <Nav />
                     </div>
                 </EB>
@@ -41,8 +44,11 @@ class App extends React.Component {
                     </div>
                 </EB>
                 <div className="image-grid">
-                    <img src={reactlogo} alt="react Logo" />
-                    <img src={nodelogo} alt="node Logo" />
+                    <img src={reactlogo} alt="react logo" />
+                    <img src={nodelogo} alt="node logo" />
+                    <img src={webpacklogo} alt="webpack logo" />
+
+                    <img src={npmlogo} alt="npm logo" />
                 </div>
             </div>
         )

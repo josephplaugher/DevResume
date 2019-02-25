@@ -3,39 +3,52 @@
 
 #container {
     display: grid;
-    grid-template-columns: 25% auto 25%;
+    grid-template-columns: 25% 50% 25%;
     grid-template-rows: 25% auto 25%;
 }
 
-.grid-header {
+.profile-grid {
+    @include center();
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 1;
+    grid-row-start: 2;
     grid-row-end: row2-end;
 }
 
 .image-grid {
-    grid-column-start: column4-start;
-    grid-column-end: column4-end;
+    @include center();
+    display: inline-grid;
+    grid-column-start: 3;
+    grid-column-end: column3-end;
+    grid-row-start: 2;
+    grid-row-end: row2-end;
+}
+
+.nav-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: row3-end;
+    grid-row-end: 2;
+    background-color: $main-font-color;
+    @include center();
+    border-radius: 15px;
 }
 
 .nav {
+    display: inline-block;
+    padding: 15px;
     background-color: $main-font-color;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 15px;
     cursor: pointer;
 }
 
 .content {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-row-end: row3-end;
     background-color: white;
-    border-radius: 5px;
-    padding: 10px;
+    margin: 20px;
 
     a,
     a:visited,

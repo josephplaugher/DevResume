@@ -4,9 +4,6 @@ import 'scss/main.scss'
 const Portfolio = () => (
     <>
         <h1 className="headline">Portfolio</h1>
-        <h1 className="subheadline">
-            Curious what kind of work we've done? Take a look
-        </h1>
         <h1 className="subheadline">Enterprise Applications</h1>
         <ul>
             <li className="list">
