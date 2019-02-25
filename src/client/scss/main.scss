@@ -1,68 +1,70 @@
 @import 'center.scss';
 @import 'fonts.scss';
 
-#container {
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 25% auto 25%;
-}
-
-.profile-grid {
-    @include center();
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: row2-end;
-}
-
-.image-grid {
-    @include center();
-    display: inline-grid;
-    grid-column-start: 3;
-    grid-column-end: column3-end;
-    grid-row-start: 2;
-    grid-row-end: row2-end;
-}
-
-.nav-container {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    background-color: $main-font-color;
-    @include center();
-    border-radius: 15px;
-}
-
-.nav {
-    display: inline-block;
-    padding: 15px;
-    background-color: $main-font-color;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.content {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: row3-end;
-    background-color: white;
-    margin: 20px;
-
-    a,
-    a:visited,
-    a:hover,
-    a:active {
-        color: $main-font-color;
-        text-decoration: none;
+@media screen and (min-width: 701px) {
+    #container {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: 25% auto 25%;
     }
 
-    a:hover,
-    a:active {
-        color: $logoGreen;
-        text-decoration: none;
-        color: $logoGreen;
+    .profile-grid {
+        @include center();
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: row2-end;
+    }
+
+    .image-grid {
+        @include center();
+        display: inline-grid;
+        grid-column-start: 3;
+        grid-column-end: column3-end;
+        grid-row-start: 2;
+        grid-row-end: row2-end;
+    }
+
+    .nav-container {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: $main-font-color;
+        @include center();
+        border-radius: 15px;
+    }
+
+    .nav {
+        display: inline-block;
+        padding: 15px;
+        background-color: $main-font-color;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .content {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: row3-end;
+        background-color: white;
+        margin: 20px;
+
+        a,
+        a:visited,
+        a:hover,
+        a:active {
+            color: $main-font-color;
+            text-decoration: none;
+        }
+
+        a:hover,
+        a:active {
+            color: $logoGreen;
+            text-decoration: none;
+            color: $logoGreen;
+        }
     }
 }
 
@@ -102,4 +104,58 @@ a:hover {
     font-family: sans-serif;
     text-decoration: none;
     color: $logoGreen;
+}
+
+@media screen and (max-width: 700px) {
+    #container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 20% 20% 20%;
+    }
+
+    .profile-grid {
+        // @include center();
+        grid-column-start: 1;
+        grid-column-end: column1-end;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .image-grid {
+        @include center();
+        display: block;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+
+    .nav-container {
+        grid-column-start: 1;
+        grid-column-end: column1-end;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: $main-font-color;
+        @include center();
+        position: fixed;
+        width: 100%;
+    }
+
+    .nav {
+        display: inline-grid;
+        // padding: 15px;
+        background-color: $main-font-color;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .content {
+        margin-bottom: 10px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: white;
+        // margin: 2px;
+    }
 }
