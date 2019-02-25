@@ -1,0 +1,8 @@
+@import 'center.scss';
+
+#nav-container {
+    @include center('row');
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+}

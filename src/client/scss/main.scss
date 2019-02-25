@@ -1,0 +1,92 @@
+@import 'center.scss';
+@import 'fonts.scss';
+
+#container {
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    grid-template-rows: 25% auto 25%;
+}
+
+.grid-header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: row2-end;
+}
+
+.image-grid {
+    grid-column-start: column4-start;
+    grid-column-end: column4-end;
+    grid-row-start: 1;
+    grid-row-end: row3-end;
+}
+
+.nav {
+    background-color: $main-font-color;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: row3-end;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+        color: $main-font-color;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+        color: $logoGreen;
+        text-decoration: none;
+        color: $logoGreen;
+    }
+}
+
+.headline {
+    font-family: sans-serif;
+    color: $main-font-color;
+    font-size: $header-font-size;
+}
+
+.subheadline {
+    font-family: sans-serif;
+    color: $main-font-color;
+    font-size: $main-font-size;
+}
+
+.text {
+    font-family: sans-serif;
+    color: $main-font-color;
+    font-size: $body-font-size;
+}
+
+.list {
+    font-family: sans-serif;
+    color: $main-font-color;
+    font-size: $body-font-size;
+}
+
+a,
+a:visited {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+a:active,
+a:hover {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: $logoGreen;
+}
