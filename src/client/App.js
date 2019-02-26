@@ -8,6 +8,7 @@ import reactlogo from './images/reactlogo.png'
 import nodelogo from './images/nodelogo.png'
 import webpacklogo from './images/webpacklogo.png'
 import npmlogo from './images/npmlogo.png'
+// import linkedinlogo from './images/linkedinlogo.png'
 import 'scss/main.scss'
 import 'scss/logo.scss'
 

@@ -37,7 +37,7 @@
 
     .nav {
         display: inline-block;
-        padding: 15px;
+        padding: 0px 12px 0px 12px;
         background-color: $main-font-color;
         border-radius: 15px;
         cursor: pointer;
@@ -92,6 +92,23 @@
     font-size: $body-font-size;
 }
 
+.content {
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+        color: $main-font-color;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+        color: $logoGreen;
+        text-decoration: none;
+        color: $logoGreen;
+    }
+}
+
 a,
 a:visited {
     font-family: sans-serif;
@@ -110,24 +127,7 @@ a:hover {
     #container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 25% 20% 20% 20%;
-    }
-
-    .profile-grid {
-        // @include center();
-        grid-column-start: 1;
-        grid-column-end: column1-end;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-    .image-grid {
-        @include center();
-        display: block;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 4;
+        grid-template-rows: 30% 40% 30%;
     }
 
     .nav-container {
@@ -137,19 +137,21 @@ a:hover {
         grid-row-end: 2;
         background-color: $main-font-color;
         @include center();
-        position: fixed;
+        // position: absolute;
         width: 100%;
     }
 
     .nav {
         display: inline-grid;
-        // padding: 15px;
+        padding: 5px;
         background-color: $main-font-color;
         border-radius: 15px;
         cursor: pointer;
     }
 
     .content {
+        padding: 5px;
+        margin-top: 5px;
         margin-bottom: 10px;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -157,5 +159,23 @@ a:hover {
         grid-row-end: 3;
         background-color: white;
         // margin: 2px;
+    }
+
+    .image-grid {
+        @include center();
+        display: block;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .profile-grid {
+        // @include center();
+        display: none;
+        //     grid-column-start: 1;
+        //     grid-column-end: column1-end;
+        //     grid-row-start: 3;
+        //     grid-row-end: 4;
     }
 }
