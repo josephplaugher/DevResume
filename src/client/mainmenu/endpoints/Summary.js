@@ -20,11 +20,12 @@ const Summary = () => (
         <h2 className="subheadline">Not just a code jockey</h2>
         <p2 className="text">
             While I believe I have the skills needed to be successful in web
-            development, I also have a Bachelor's Degress in Accounting and I
-            have worked as a Project Accounting for an engineering firm for the
-            last two years. I have absorbed knowledge of the financial side of
-            consulting and engineering and am aware of the financial aspects of
-            business.
+            development, I also have a Bachelor's Degress in Accounting and
+            working for an engineering firm as a Project Accountant I have
+            absorbed knowledge of the financial side of consulting and
+            engineering and am aware of the financial aspects of business
+            decisions wthin a consulting firm. These same lessons apply to
+            software consulting.
         </p2>
     </>
 )

@@ -25,14 +25,18 @@ const Skills = () => (
                 </p>
             </li>
             <li className="list">
-                React - for dynamic, interactive, userfriendly applications that
-                run in the browser.
+                <p>
+                    React - for dynamic, interactive, userfriendly applications
+                    that run in the browser.
+                </p>
             </li>
             <li className="list">
-                Isomorphic/Universal React - for the best of both worlds from
-                the first two items above: the ability to render the entire view
-                on the server so it is SEO friendly and still maintains complete
-                interactivity.
+                <p>
+                    Isomorphic/Universal React - for the best of both worlds
+                    from the first two items above: the ability to render the
+                    entire view on the server so it is SEO friendly and still
+                    maintains complete interactivity.
+                </p>
             </li>
             <li className="list">
                 <p>
@@ -47,13 +51,17 @@ const Skills = () => (
                 </p>
             </li>
             <li className="list">
-                Electron - for building desktop applications
+                <p>Electron - for building desktop applications.</p>
             </li>
-            <li className="list">GIT - for version control</li>
             <li className="list">
-                Webpack - for bundling JavaScript modules, and other assets such
-                as images and css, into one file to be loaded onto the HTML page
-                in the browser
+                <p>GIT - for version control.</p>
+            </li>
+            <li className="list">
+                <p>
+                    Webpack - for bundling JavaScript modules, and other assets
+                    such as images and css, into one file to be loaded onto the
+                    HTML page in the browser
+                </p>
             </li>
         </ul>
     </>
