@@ -95,7 +95,6 @@
 .content {
     a,
     a:visited,
-    a:hover,
     a:active {
         color: $main-font-color;
         text-decoration: none;
@@ -105,7 +104,6 @@
     a:active {
         color: $logoGreen;
         text-decoration: none;
-        color: $logoGreen;
     }
 }
 
@@ -114,13 +112,14 @@ a:visited {
     font-family: sans-serif;
     text-decoration: none;
     color: white;
+    padding: 2px;
 }
 
 a:active,
 a:hover {
     font-family: sans-serif;
-    text-decoration: none;
     color: $logoGreen;
+    padding: 2px;
 }
 
 @media screen and (max-width: 700px) {

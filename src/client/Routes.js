@@ -1,23 +1,23 @@
 import Summary from './mainmenu/endpoints/Summary'
-import About from './mainmenu/endpoints/About'
+import WorkExp from './mainmenu/endpoints/WorkExp'
 import Skills from './mainmenu/endpoints/Skills'
 import ContactMe from './mainmenu/endpoints/ContactMe'
 import Portfolio from './mainmenu/endpoints/Portfolio'
 
 const Routes = [
     {
-        path: '/', //this is the url and the link button path
+        path: '/home', //this is the url and the link button path
         exact: true,
         component: Summary,
         name: 'Home', //this is the link label
     },
     {
-        path: '/about',
-        component: About,
-        name: 'About',
+        path: '/workexp',
+        component: WorkExp,
+        name: 'Work Experience & Education',
     },
     {
-        path: '/consulting',
+        path: '/skills',
         component: Skills,
         name: 'Skills',
     },

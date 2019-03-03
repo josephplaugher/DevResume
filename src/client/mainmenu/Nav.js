@@ -5,25 +5,21 @@ import 'scss/nav.scss'
 
 class Nav extends React.Component {
     constructor(props) {
-        super(props);
-        this.state = {};
+        super(props)
+        this.state = {}
     }
 
     render() {
-
         const NavBar = Routes.map(({ name, path }) => (
             <p className="nav" key={path}>
-              <NavLink activeStyle={{fontWeight: 'bold'}} to={path}>
-                {name}
-              </NavLink>
+                <NavLink activeStyle={{ fontWeight: 'bold' }} to={path}>
+                    {name}
+                </NavLink>
             </p>
         ))
 
-        return (
-            NavBar
-            
-        )
+        return NavBar
     }
 }
 
-export default Nav;
+export default Nav

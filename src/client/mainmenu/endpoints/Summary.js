@@ -4,14 +4,7 @@ import 'scss/main.scss'
 const Summary = () => (
     <>
         <h1 className="headline">Skilled and Capable Web Developer For Hire</h1>
-        <h2 className="subheadline">Self Taught</h2>
-        <p2 className="text">
-            If you're looking for someone with a formal education, you can move
-            on. If you're looking for someone who is passionate about technology
-            and the internet and has taken the initiative to learn all the
-            things a modern Web Dev needs to know, look no further. I am he.
-        </p2>
-        <h2 className="subheadline">Motivated</h2>
+        <h2 className="subheadline">Self Taught And Motivated</h2>
         <p2 className="text">
             Today's JavaScript ecosystem can be confusing! I've invested my own
             time in learning it anyway. The internet is changing the world and I

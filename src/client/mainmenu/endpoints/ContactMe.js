@@ -16,7 +16,7 @@ const ContactMe = () => (
         </p>
         <p className="text">Calling 971-373-1740</p>
         <p className="text">
-            Leave me a message on{' '}
+            Leaving me a message on{' '}
             <a
                 href="https://www.linkedin.com/in/joseph-plaugher-911b497/"
                 style={{ textDecoration: 'underline' }}

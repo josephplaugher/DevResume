@@ -3,11 +3,10 @@ import 'scss/main.scss'
 
 const Skills = () => (
     <>
-        <h1 className="headline">Technologies I Am comfortable With</h1>
+        <h1 className="headline">Technologies I Know</h1>
         <p className="text">
-            Here is a list of technologies, and a brief description of each, in
-            the web development ecosystem that I am confident with and use every
-            day.
+            Here are the technologies in the web development ecosystem I know
+            and use every day.
         </p>
         <ul>
             <li className="list">
