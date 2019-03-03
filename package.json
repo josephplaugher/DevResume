@@ -4,8 +4,8 @@
     "private": true,
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "run-p build-webpack-client build-webpack-server start-server:dev",
-        "build": "run-p build-webpack-client:prod build-webpack-server:prod start-server:prod",
+        "start": "npm-run-all -p build-webpack-client build-webpack-server start-server:dev",
+        "build": "npm-run-all -p build-webpack-client:prod build-webpack-server:prod start-server:prod",
         "build-webpack-server": "webpack --watch --config './webpack.config.server.babel.js' --colors --display-error-details",
         "build-webpack-client": "webpack --watch --config './webpack.config.client.babel.js' --colors --display-error-details",
         "start-server:dev": "nodemon './src/start-server.js' --watch './ui/server.js' ",
