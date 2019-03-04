@@ -5,13 +5,13 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "npm-run-all -p build-webpack-client build-webpack-server start-server:dev",
-        "build": "npm-run-all -p build-webpack-client build-webpack-server start-server:prod",
+        "build": "npm-run-all -p build-webpack-client:prod build-webpack-server:prod start-server:prod",
         "build-webpack-server": "webpack --watch --config './webpack.config.server.babel.js' --colors --display-error-details",
         "build-webpack-client": "webpack --watch --config './webpack.config.client.babel.js' --colors --display-error-details",
         "start-server:dev": "nodemon './src/start-server.js' --watch './ui/server.js' ",
         "build-webpack-server:prod": "webpack --config './webpack.config.server.babel.js' --colors --display-error-details",
         "build-webpack-client:prod": "webpack --config './webpack.config.client.babel.js' --colors --display-error-details",
-        "start-server:prod": "NODE_ENV=production forever start forever-config.json"
+        "start-server:prod": "NODE_ENV=production forever start -o foreverout.log './src/start-server-prod.js' "
     },
     "dependencies": {
         "axios": "^0.18.0",

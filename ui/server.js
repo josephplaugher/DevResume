@@ -850,7 +850,7 @@ var SetUrl = function SetUrl() {
   var url;
 
   if (true) {
-    url = process.env.BASE_URL_DEV;
+    url = "http://localhost:3024";
   } else {}
 
   return url;
