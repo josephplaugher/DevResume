@@ -6,7 +6,7 @@ import Portfolio from './mainmenu/endpoints/Portfolio'
 
 const Routes = [
     {
-        path: '/home', //this is the url and the link button path
+        path: '/', //this is the url and the link button path
         exact: true,
         component: Summary,
         name: 'Home', //this is the link label

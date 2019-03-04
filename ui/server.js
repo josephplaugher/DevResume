@@ -175,7 +175,7 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, " change your host file when you get it working"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "headshot",
         className: "profile-grid"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -248,7 +248,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Routes = [{
-  path: '/home',
+  path: '/',
   //this is the url and the link button path
   exact: true,
   component: _mainmenu_endpoints_Summary__WEBPACK_IMPORTED_MODULE_0__["default"],
@@ -850,7 +850,7 @@ var SetUrl = function SetUrl() {
   var url;
 
   if (true) {
-    url = "http://localhost:3024";
+    url = process.env.BASE_URL_DEV;
   } else {}
 
   return url;
