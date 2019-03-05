@@ -24,7 +24,6 @@ class App extends React.Component {
                 <div id="headshot" className="profile-grid">
                     <img src={profilepicture} alt="profile image" />
                 </div>
-
                 <EB comp="Nave in App.js">
                     <div className="nav-container">
                         <Nav />
