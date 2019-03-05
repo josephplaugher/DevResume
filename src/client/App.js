@@ -21,7 +21,6 @@ class App extends React.Component {
     render() {
         return (
             <div id="container">
-                <h1> change your host file when you get it working</h1>
                 <div id="headshot" className="profile-grid">
                     <img src={profilepicture} alt="profile image" />
                 </div>
