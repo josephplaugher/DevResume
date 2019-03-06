@@ -5,11 +5,9 @@ const WorkExp = () => (
     <>
         <h1 className="headline">Formal Education</h1>
         <p className="text">
-            Concordia University-Portland
+            Concordia University - Portland
             <br />
-            Bachelor of Arts, Accounting
-            <br />
-            2015
+            Bachelor of Arts, Accounting. 2015
         </p>
         <h1 className="headline">Recent Work Experience</h1>
         <p className="text">
@@ -22,15 +20,18 @@ const WorkExp = () => (
         <ul>
             <li className="list">
                 <p>
+                    "Quality Check" project budgets before they are approved to
+                    be submitted to clients on proposed new project.
+                </p>
+            </li>
+            <li className="list">
+                <p>
                     Synthesize new project information and create project
                     profile in Oracle EBS.
                 </p>
             </li>
             <li className="list">
-                <p>
-                    Review draft invoices for accuracy and adherence to client
-                    contracts.
-                </p>
+                <p>Handle invoicing for 30+ projects every month.</p>
             </li>
             <li className="list">
                 <p>
@@ -40,14 +41,12 @@ const WorkExp = () => (
             </li>
             <li className="list">
                 <p>
-                    Coordinate with legal team to draft subcontractor
-                    agreements.
+                    Coordinate with legal team to draft subcontractor agreements
+                    and client contract ammendments.
                 </p>
             </li>
             <li className="list">
-                <p>
-                    Validate subcontractor invoices for adherence to contracts.
-                </p>
+                <p>Enforce contract terms on subcontractor invoices.</p>
             </li>
             <li className="list">
                 <p>Oversee budgets and keep project managers apprised. </p>

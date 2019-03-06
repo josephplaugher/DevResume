@@ -553,15 +553,15 @@ var Portfolio = function Portfolio() {
   }, "Enterprise Applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://erp.appreciateco.com"
+    href: "https://erp.appco.tech"
   }, "Appreciate Enterprise Accounting"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: ""
+    href: "https://pay.appco.tech"
   }, "Integrated Payment Processing"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: ""
+    href: "https://files.appco.tech"
   }, "Enterprise File Server")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "subheadline"
   }, "Open Source Applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -632,7 +632,7 @@ __webpack_require__.r(__webpack_exports__);
 var Skills = function Skills() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "headline"
-  }, "Technologies I Know"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Technologies I Know."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text"
   }, "Here are the technologies in the web development ecosystem I know and use every day."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
@@ -644,11 +644,19 @@ var Skills = function Skills() {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node with Express - from simple to complex server side business logic, or a straight-forwad CRUD server."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am experienced with old-school JavaScript including building functional \"classes\" using prototypical inheritance and using require/module.exports to combine JavaScript files.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Electron - for building desktop applications.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Basic HTML and CSS as well as SASS, the CSS precompiler for more flexible and DRY CSS code."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "headline"
+  }, "Related Developement Tooling I Know."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text"
+  }, "Tools I Use Regularly Or Occasionally."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Webpack - for bundling JavaScript modules, and bundling other assets such as images and css, into one file to be loaded onto the HTML page in the browser")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "GIT - for version control.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Webpack - for bundling JavaScript modules, and other assets such as images and css, into one file to be loaded onto the HTML page in the browser"))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Prettier - to maintain code quality and formating.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Electron - for building desktop applications."))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Skills);
@@ -710,21 +718,23 @@ var WorkExp = function WorkExp() {
     className: "headline"
   }, "Formal Education"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text"
-  }, "Concordia University-Portland", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Bachelor of Arts, Accounting", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "2015"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, "Concordia University - Portland", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Bachelor of Arts, Accounting. 2015"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "headline"
   }, "Recent Work Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text"
   }, "Project Accountant | HDR Engineering", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Oct 2015 \u2013 Present", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Portland, Oregon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\"Quality Check\" project budgets before they are approved to be submitted to clients on proposed new project.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Synthesize new project information and create project profile in Oracle EBS.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Review draft invoices for accuracy and adherence to client contracts.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Handle invoicing for 30+ projects every month.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Work with project managers to correct invoices\u200B errors as needed.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Coordinate with legal team to draft subcontractor agreements.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Coordinate with legal team to draft subcontractor agreements and client contract ammendments.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Validate subcontractor invoices for adherence to contracts.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Enforce contract terms on subcontractor invoices.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Oversee budgets and keep project managers apprised. ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"

@@ -3,7 +3,7 @@ import 'scss/main.scss'
 
 const Skills = () => (
     <>
-        <h1 className="headline">Technologies I Know</h1>
+        <h1 className="headline">Technologies I Know.</h1>
         <p className="text">
             Here are the technologies in the web development ecosystem I know
             and use every day.
@@ -50,17 +50,36 @@ const Skills = () => (
                 </p>
             </li>
             <li className="list">
-                <p>Electron - for building desktop applications.</p>
+                <p>
+                    Basic HTML and CSS as well as SASS, the CSS precompiler for
+                    more flexible and DRY CSS code.
+                </p>
+            </li>
+            <li className="list">
+                <p>
+                    JSON Web Tokens and stateless (sessionless) cookies for
+                    authenicating user login sessions.
+                </p>
+            </li>
+        </ul>
+        <h1 className="headline">Related Developement Tooling I Know.</h1>
+        <p className="text">Tools I Use Regularly Or Occasionally.</p>
+        <ul>
+            <li className="list">
+                <p>
+                    Webpack - for bundling JavaScript modules, and bundling
+                    other assets such as images and css, into one file to be
+                    loaded onto the HTML page in the browser
+                </p>
             </li>
             <li className="list">
                 <p>GIT - for version control.</p>
             </li>
             <li className="list">
-                <p>
-                    Webpack - for bundling JavaScript modules, and other assets
-                    such as images and css, into one file to be loaded onto the
-                    HTML page in the browser
-                </p>
+                <p>Prettier - to maintain code quality and formating.</p>
+            </li>
+            <li className="list">
+                <p>Electron - for building desktop applications.</p>
             </li>
         </ul>
     </>

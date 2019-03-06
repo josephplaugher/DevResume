@@ -8,19 +8,24 @@ const Portfolio = () => (
         <ul>
             <li className="list">
                 <p>
-                    <a href="https://erp.appreciateco.com">
+                    <a href="https://erp.appco.tech">
                         Appreciate Enterprise Accounting
+                    </a>
+                </p>
+                <p>Technologies Used: ReactJS, Webpack, </p>
+            </li>
+            <li className="list">
+                <p>
+                    <a href="https://pay.appco.tech">
+                        Integrated Payment Processing
                     </a>
                 </p>
             </li>
             <li className="list">
                 <p>
-                    <a href="">Integrated Payment Processing</a>
-                </p>
-            </li>
-            <li className="list">
-                <p>
-                    <a href="">Enterprise File Server</a>
+                    <a href="https://files.appco.tech">
+                        Enterprise File Server
+                    </a>
                 </p>
             </li>
         </ul>
