@@ -554,7 +554,7 @@ var Portfolio = function Portfolio() {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://erp.appco.tech"
-  }, "Appreciate Enterprise Accounting"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Appreciate Enterprise Accounting")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Technologies Used: ReactJS, Webpack, ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://pay.appco.tech"
@@ -644,7 +644,9 @@ var Skills = function Skills() {
     className: "list"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node with Express - from simple to complex server side business logic, or a straight-forwad CRUD server."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am experienced with old-school JavaScript including building functional \"classes\" using prototypical inheritance and using require/module.exports to combine JavaScript files.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Basic HTML and CSS as well as SASS, the CSS precompiler for more flexible and DRY CSS code."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Basic HTML and CSS as well as SASS, the CSS precompiler for more flexible and DRY CSS code.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JSON Web Tokens and stateless (sessionless) cookies for authenicating user login sessions."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "headline"
   }, "Related Developement Tooling I Know."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text"
