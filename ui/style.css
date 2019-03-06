@@ -87,20 +87,18 @@ a,
 a:visited {
   font-family: sans-serif;
   text-decoration: none;
-  color: white;
-  padding: 2px; }
+  color: white; }
 
 a:active,
 a:hover {
   font-family: sans-serif;
-  color: #03c203;
-  padding: 2px; }
+  color: #03c203; }
 
 @media screen and (max-width: 700px) {
   #container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 40% 30%; }
+    grid-template-rows: auto 40% 30%; }
   .nav-container {
     grid-column-start: 1;
     grid-column-end: column1-end;
@@ -111,11 +109,11 @@ a:hover {
     justify-content: center;
     width: 100%; }
   .nav {
-    display: inline-grid;
-    padding: 5px;
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
     background-color: #2665C4;
-    border-radius: 15px;
-    cursor: pointer; }
+    cursor: pointer;
+    line-height: 1px; }
   .content {
     padding: 5px;
     margin-top: 5px;
@@ -126,16 +124,9 @@ a:hover {
     grid-row-end: 3;
     background-color: white; }
   .image-grid {
-    align-items: center;
-    justify-content: center;
-    display: block;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4; }
+    display: none; }
   .profile-grid {
     display: none; } }
-
 
 @media screen and (min-width: 701px) {
   #headshot img {

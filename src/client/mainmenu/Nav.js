@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Routes from './../Routes'
-import 'scss/nav.scss'
 
 class Nav extends React.Component {
     constructor(props) {
