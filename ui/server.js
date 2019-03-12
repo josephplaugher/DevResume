@@ -239,10 +239,8 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mainmenu_endpoints_Summary__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mainmenu/endpoints/Summary */ "./src/client/mainmenu/endpoints/Summary.js");
 /* harmony import */ var _mainmenu_endpoints_WorkExp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mainmenu/endpoints/WorkExp */ "./src/client/mainmenu/endpoints/WorkExp.js");
-/* harmony import */ var _mainmenu_endpoints_Skills__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mainmenu/endpoints/Skills */ "./src/client/mainmenu/endpoints/Skills.js");
-/* harmony import */ var _mainmenu_endpoints_ContactMe__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mainmenu/endpoints/ContactMe */ "./src/client/mainmenu/endpoints/ContactMe.js");
-/* harmony import */ var _mainmenu_endpoints_Portfolio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mainmenu/endpoints/Portfolio */ "./src/client/mainmenu/endpoints/Portfolio.js");
-
+/* harmony import */ var _mainmenu_endpoints_ContactMe__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mainmenu/endpoints/ContactMe */ "./src/client/mainmenu/endpoints/ContactMe.js");
+/* harmony import */ var _mainmenu_endpoints_Portfolio__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mainmenu/endpoints/Portfolio */ "./src/client/mainmenu/endpoints/Portfolio.js");
 
 
 
@@ -258,18 +256,13 @@ var Routes = [{
   path: '/workexp',
   component: _mainmenu_endpoints_WorkExp__WEBPACK_IMPORTED_MODULE_1__["default"],
   name: 'Work Experience & Education'
-}, // {
-//     path: '/skills',
-//     component: Skills,
-//     name: 'Skills',
-// },
-{
+}, {
   path: '/portfolio',
-  component: _mainmenu_endpoints_Portfolio__WEBPACK_IMPORTED_MODULE_4__["default"],
+  component: _mainmenu_endpoints_Portfolio__WEBPACK_IMPORTED_MODULE_3__["default"],
   name: 'Portfolio'
 }, {
   path: '/contact',
-  component: _mainmenu_endpoints_ContactMe__WEBPACK_IMPORTED_MODULE_3__["default"],
+  component: _mainmenu_endpoints_ContactMe__WEBPACK_IMPORTED_MODULE_2__["default"],
   name: 'Contact Me'
 }];
 /* harmony default export */ __webpack_exports__["default"] = (Routes);
@@ -635,58 +628,6 @@ var Portfolio = function Portfolio() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Portfolio);
-
-/***/ }),
-
-/***/ "./src/client/mainmenu/endpoints/Skills.js":
-/*!*************************************************!*\
-  !*** ./src/client/mainmenu/endpoints/Skills.js ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! scss/main.scss */ "./src/client/scss/main.scss");
-/* harmony import */ var scss_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(scss_main_scss__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-var Skills = function Skills() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "headline"
-  }, "Technologies I Know."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text"
-  }, "Here are the technologies in the web development ecosystem I know and use every day."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Vanilla JavaScript - for simple applications that run in the browser, typically with only one view. Also useful for adding interactivity to static HTML websites generated on the server."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This can take a couple different shapes: several event handlers for directly interacting with the DOM in one or two JavaScript files or multiple JavaScript modules using import/export and bundled with Webpack into a single file.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React - for dynamic, interactive, userfriendly applications that run in the browser.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Isomorphic/Universal React - for the best of both worlds from the first two items above: the ability to render the entire view on the server so it is SEO friendly and still maintains complete interactivity.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node with Express - from simple to complex server side business logic, or a straight-forwad CRUD server."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am experienced with old-school JavaScript including building functional \"classes\" using prototypical inheritance and using require/module.exports to combine JavaScript files.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Basic HTML and CSS as well as SASS, the CSS precompiler for more flexible and DRY CSS code.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JSON Web Tokens and stateless (sessionless) cookies for authenicating user login sessions."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "headline"
-  }, "Related Development Tooling I Know."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text"
-  }, "Tools I Use Regularly Or Occasionally."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Webpack - for bundling JavaScript modules, and bundling other assets such as images and css, into one file to be loaded onto the HTML page in the browser")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "GIT - for version control.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "ESLint with Prettier - to maintain code quality and formating.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Electron - for building desktop applications."))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Skills);
 
 /***/ }),
 

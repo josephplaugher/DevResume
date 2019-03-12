@@ -1,6 +1,5 @@
 import Summary from './mainmenu/endpoints/Summary'
 import WorkExp from './mainmenu/endpoints/WorkExp'
-import Skills from './mainmenu/endpoints/Skills'
 import ContactMe from './mainmenu/endpoints/ContactMe'
 import Portfolio from './mainmenu/endpoints/Portfolio'
 
@@ -16,11 +15,6 @@ const Routes = [
         component: WorkExp,
         name: 'Work Experience & Education',
     },
-    // {
-    //     path: '/skills',
-    //     component: Skills,
-    //     name: 'Skills',
-    // },
     {
         path: '/portfolio',
         component: Portfolio,
