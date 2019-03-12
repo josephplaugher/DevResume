@@ -62,7 +62,7 @@ const Skills = () => (
                 </p>
             </li>
         </ul>
-        <h1 className="headline">Related Developement Tooling I Know.</h1>
+        <h1 className="headline">Related Development Tooling I Know.</h1>
         <p className="text">Tools I Use Regularly Or Occasionally.</p>
         <ul>
             <li className="list">
@@ -76,7 +76,10 @@ const Skills = () => (
                 <p>GIT - for version control.</p>
             </li>
             <li className="list">
-                <p>Prettier - to maintain code quality and formating.</p>
+                <p>
+                    ESLint with Prettier - to maintain code quality and
+                    formating.
+                </p>
             </li>
             <li className="list">
                 <p>Electron - for building desktop applications.</p>

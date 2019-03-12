@@ -25,7 +25,7 @@ class App extends React.Component {
                     <img src={profilepicture} alt="profile image" />
                 </div>
                 <EB comp="Nave in App.js">
-                    <div className="nav-container">
+                    <div id="nav-container">
                         <Nav />
                     </div>
                 </EB>

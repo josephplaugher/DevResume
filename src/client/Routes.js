@@ -16,11 +16,11 @@ const Routes = [
         component: WorkExp,
         name: 'Work Experience & Education',
     },
-    {
-        path: '/skills',
-        component: Skills,
-        name: 'Skills',
-    },
+    // {
+    //     path: '/skills',
+    //     component: Skills,
+    //     name: 'Skills',
+    // },
     {
         path: '/portfolio',
         component: Portfolio,

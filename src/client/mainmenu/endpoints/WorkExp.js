@@ -41,8 +41,9 @@ const WorkExp = () => (
             </li>
             <li className="list">
                 <p>
-                    Coordinate with legal team to draft subcontractor agreements
-                    and client contract ammendments.
+                    Coordinate with legal team to verify acceptable client
+                    contract terms and conditions, and draft subcontractor
+                    agreements.
                 </p>
             </li>
             <li className="list">

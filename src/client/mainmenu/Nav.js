@@ -11,7 +11,10 @@ class Nav extends React.Component {
     render() {
         const NavBar = Routes.map(({ name, path }) => (
             <p className="nav" key={path}>
-                <NavLink activeStyle={{ fontWeight: 'bold' }} to={path}>
+                <NavLink
+                    activeStyle={{ textDecoration: 'underline' }}
+                    to={path}
+                >
                     {name}
                 </NavLink>
             </p>

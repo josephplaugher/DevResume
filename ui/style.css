@@ -1,8 +1,9 @@
 @media screen and (min-width: 701px) {
   #container {
     display: grid;
+    justify-items: center;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 25% auto 25%; }
+    grid-template-rows: 25% 25% auto; }
   .profile-grid {
     align-items: center;
     justify-content: center;
@@ -17,8 +18,8 @@
     grid-column-start: 3;
     grid-column-end: column3-end;
     grid-row-start: 2;
-    grid-row-end: row2-end; }
-  .nav-container {
+    grid-row-end: 3; }
+  #nav-container {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -29,7 +30,7 @@
     border-radius: 15px; }
   .nav {
     display: inline-block;
-    padding: 0px 12px 0px 12px;
+    padding: 0px 25px;
     background-color: #2665C4;
     border-radius: 15px;
     cursor: pointer; }
@@ -39,7 +40,7 @@
     grid-row-start: 2;
     grid-row-end: row3-end;
     background-color: white;
-    margin: 20px; }
+    margin: 25px; }
     .content a,
     .content a:visited,
     .content a:hover,
@@ -60,7 +61,8 @@
 .subheadline {
   font-family: sans-serif;
   color: #2665C4;
-  font-size: 15px; }
+  font-size: 15px;
+  margin: 35px 0px 5px 0px; }
 
 .text {
   font-family: sans-serif;
@@ -71,6 +73,9 @@
   font-family: sans-serif;
   color: #2665C4;
   font-size: 12px; }
+
+.list-descr {
+  margin: 0px 0px 10px 0px; }
 
 .content a,
 .content a:visited,
@@ -97,9 +102,10 @@ a:hover {
 @media screen and (max-width: 700px) {
   #container {
     display: grid;
+    justify-items: center;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 40% 30%; }
-  .nav-container {
+    grid-template-rows: auto 40% 30%; }
+  #nav-container {
     grid-column-start: 1;
     grid-column-end: column1-end;
     grid-row-start: 1;
@@ -110,7 +116,7 @@ a:hover {
     width: 100%; }
   .nav {
     display: inline-block;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 35px;
     background-color: #2665C4;
     cursor: pointer;
     line-height: 1px; }
@@ -135,7 +141,8 @@ a:hover {
     border-radius: 15px; }
   .image-grid img {
     max-width: 75%;
-    border-radius: 15px; } }
+    border-radius: 15px;
+    margin: 5px 0px; } }
 
 @media screen and (max-width: 700px) {
   #headshot img {
