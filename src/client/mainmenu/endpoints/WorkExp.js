@@ -87,10 +87,7 @@ const WorkExp = () => (
                 </p>
             </li>
             <li className="list">
-                <p>
-                    General bookkeeping, payroll, tax strategy collaboration. A
-                    few words from a couple of my clients:
-                </p>
+                <p>General bookkeeping, payroll, tax strategy collaboration.</p>
             </li>
         </ul>
     </>

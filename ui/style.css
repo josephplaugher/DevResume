@@ -129,6 +129,11 @@ a:hover {
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: white; }
+  .content a,
+  .content a:visited,
+  .content a:active {
+    color: #03c203;
+    text-decoration: underline; }
   .image-grid {
     display: none; }
   .profile-grid {

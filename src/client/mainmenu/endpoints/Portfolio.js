@@ -13,6 +13,7 @@ const Portfolio = () => (
             React). It is comprised of a couple of event handlers and functions
             interacting directly with the DOM.
             <br />
+            <br />
             Some of my projects use traditional prototype-based "classes" on the
             server side, some use ES6 syntax including classes. Most of the time
             I do not transpile the server side, except when both Search Engine
