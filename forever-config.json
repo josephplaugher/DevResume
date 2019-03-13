@@ -1,0 +1,9 @@
+{
+    "uid": "devresume",
+    "max": 5,
+    "spinSleepTime": 1000,
+    "minUptime": 1000,
+    "append": true,
+    "watch": false,
+    "script": "./src/start-server-prod.js"
+}
