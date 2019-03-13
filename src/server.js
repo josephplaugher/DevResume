@@ -32,6 +32,7 @@ export default function() {
             'Access-Control-Allow-Headers',
             'Content-Type, authorization'
         )
+        res.header('Cache-Control', 'must-revalidate')
         next()
     })
 
