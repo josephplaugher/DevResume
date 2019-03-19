@@ -79,7 +79,7 @@ const Portfolio = () => (
             </li>
             <li className="list">
                 <p>
-                    <a href="">Blog Site. </a>
+                    <a href="https://blog.appco.tech">Blog Site. </a>
                     <a href="">GitHub</a>
                     <br />
                     Technologies used: Combination raw JavaScript and React,
@@ -99,7 +99,9 @@ const Portfolio = () => (
 
             <li className="list">
                 <p>
-                    <a href="">Blog Administration Utility. </a>
+                    <a href="https://blogadmin.appco.tech">
+                        Blog Administration Utility.{' '}
+                    </a>
                     <a href="">GitHub</a>
                     <br />
                     Technologies Used: React, JSON web token and cookie, Webpack
@@ -122,11 +124,13 @@ const Portfolio = () => (
         <ul>
             <li className="list">
                 <p>
-                    <a href="https://npm.com">ReactForm-Appco</a>: A powerful,
-                    flexible forms and inputs module for React. Includes "live
-                    search" that can be used similarly to a select or dropdown
-                    menu, except the list of options change with user input.{' '}
-                    <br />
+                    <a href="https://www.npmjs.com/package/reactform-appco">
+                        ReactForm-Appco
+                    </a>
+                    : A powerful, flexible forms and inputs module for React.
+                    Includes "live search" that can be used similarly to a
+                    select or dropdown menu, except the list of options change
+                    with user input. <br />
                     <a href="">GitHub</a>
                     <br />
                     Technologies uses: React, Webpack and Babel.
@@ -134,17 +138,10 @@ const Portfolio = () => (
             </li>
             <li className="list">
                 <p>
-                    <a href="https://npm.com">Form Validation module</a>: From
-                    ReactForm-AppCo, but extracted for use on ordinary forms.{' '}
-                    <br />
-                    <a href="">GitHub</a> <br />
-                    Technologies used: Raw JavaScript, Webpack and Babel.
-                </p>
-            </li>
-            <li className="list">
-                <p>
-                    <a href="https://hash.appco.tech">LightBox</a>: A "popup"
-                    window module.
+                    <a href="https://www.npmjs.com/package/lightbox-appco">
+                        LightBox
+                    </a>
+                    : A "popup" window module.
                     <br />
                     <a href="">GitHub</a>
                     <br />
@@ -154,8 +151,8 @@ const Portfolio = () => (
             </li>
             <li className="list">
                 <p>
-                    <a href="https://hash.appco.tech">Menu</a>: A closeable menu
-                    module.
+                    <a href="https://www.npmjs.com/package/menu-appco">Menu</a>:
+                    A closeable menu module.
                     <br />
                     <a href="">GitHub</a>
                     <br />
