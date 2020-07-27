@@ -1,11 +1,11 @@
 import React from 'react'
-import 'scss/main.scss'
 
 const Portfolio = () => (
     <>
         <h1 className="headline">Portfolio</h1>
         <p className="text">
-            Typically my projects utilize an Express server with the EJS
+            Below is a list of web applications we built from the ground up.
+            Typically our projects utilize an Express server with the EJS
             template engine. Usually there is a single script tag to include the
             React application bundled with Webpack. If the project is very
             simple, such as the strong password generator which still utilizes
@@ -14,27 +14,25 @@ const Portfolio = () => (
             interacting directly with the DOM.
             <br />
             <br />
-            Some of my projects use traditional prototype-based "classes" on the
-            server side, some use ES6 syntax including classes. Most of the time
-            I do not transpile the server side, except when both Search Engine
-            Optimization (SEO) and user interactivity are important, such as the
-            website you are reading now. On this site, the client and server
-            sides are transpiled from ES6 syntax and all markup is rendered on
-            the server (until you click the navigation buttons) for SEO
-            purposes.{' '}
+            Some of our projects use traditional prototype-based "classes" on
+            the server side, some use ES6 syntax including classes. Most of the
+            time we do not transpile the server side, except when both Search
+            Engine Optimization (SEO) and user interactivity are important, such
+            as the website you are reading now. On this site, the client and
+            server sides are transpiled from ES6 syntax and all markup is
+            rendered on the server (until you click the navigation buttons) for
+            SEO purposes.{' '}
         </p>
-        <h1 className="subheadline">Enterprise Applications</h1>
+        <h2 className="subheadline">Enterprise Applications</h2>
         <ul>
             <li className="list">
                 <p>
-                    <a href="https://erp.appco.tech">
-                        Appreciate Enterprise Accounting
-                    </a>
+                    <a>Appreciate Enterprise Accounting (in development)</a>
                     : A scalable, sophisticated double-entry accounting system.
                     <br />
-                    Technologies Used: React, JSON web token and cookie, Webpack
-                    and Babel, Express backend; CRUD operations in response to
-                    API calls from the client. PostgreSQL database.
+                    Technologies Used: React, Webpack and Babel, Express
+                    backend; CRUD operations in response to API calls from the
+                    client. PostgreSQL database.
                 </p>
             </li>
             <li className="list">
@@ -47,24 +45,11 @@ const Portfolio = () => (
                     <br />
                     Technologies Used: React, Webpack and Babel, Express; CRUD
                     operations in response to API calls from the client.
-                    PostgreSQL database
-                </p>
-            </li>
-            <li className="list">
-                <p>
-                    <a href="https://files.appco.tech">
-                        Enterprise File Server
-                    </a>
-                    : This is a work in progress but is functional. The intent
-                    is to functionally replace Google Drive.
-                    <br />
-                    Technologies Used: React, JSON web token and cookie, Webpack
-                    and Babel, Express; CRUD operations in response to API calls
-                    from the client. PostgreSQL database.
+                    PostgreSQL database.
                 </p>
             </li>
         </ul>
-        <h1 className="subheadline">Open Source Applications</h1>
+        <h2 className="subheadline">Open Source Applications</h2>
         <ul>
             <li className="list">
                 <p>
@@ -80,7 +65,9 @@ const Portfolio = () => (
             <li className="list">
                 <p>
                     <a href="https://blog.appco.tech">Blog Site. </a>
-                    <a href="">GitHub</a>
+                    <a href="https://github.com/josephplaugher/BlogSite">
+                        GitHub
+                    </a>
                     <br />
                     Technologies used: Combination raw JavaScript and React,
                     with Webpack and Babel. Express; CRUD operations in response
@@ -102,66 +89,103 @@ const Portfolio = () => (
                     <a href="https://blogadmin.appco.tech">
                         Blog Administration Utility.{' '}
                     </a>
-                    <a href="">GitHub</a>
+                    <a href="https://github.com/josephplaugher/blog-admin-utility">
+                        GitHub
+                    </a>
                     <br />
-                    Technologies Used: React, JSON web token and cookie, Webpack
-                    and Babel, Express backend; CRUD operations in response to
-                    API calls from the client. PostgreSQL database.
+                    Technologies Used: React, Webpack and Babel, Express
+                    backend; CRUD operations in response to API calls from the
+                    client. PostgreSQL database.
                 </p>
             </li>
             <li className="list">
+                <a href="https://pantry.appco.tech">
+                    Personal Pantry Management System.{' '}
+                </a>
                 <p>
-                    <a href="">Pantry. </a>
-                    <a href="">GitHub</a>
+                    Simple inventory management system for home use. Keeps a
+                    running inventory of food items and related supplies, adding
+                    as you shop, subtracting as you use things. Includes a
+                    shopping list tool that automatically builds a shopping list
+                    as you use items based on your preferences.
                     <br />
-                    Technologies Used: React, JSON web token and cookie, Webpack
-                    and Babel, Express backend; CRUD operations in response to
-                    API calls from the client. PostgreSQL database.
+                    <br />
+                    Technologies Used: React, Webpack and Babel, Express
+                    backend; CRUD operations in response to API calls from the
+                    client. PostgreSQL database.
+                    <br />
+                    <br />
+                    <a href="">GitHub</a>
                 </p>
             </li>
         </ul>
-        <h1 className="subheadline">NPM Modules</h1>
+        <h2 className="subheadline">NPM Modules</h2>
         <ul>
             <li className="list">
+                <h3>ReactForm-AppCo</h3>
                 <p>
-                    <a href="https://www.npmjs.com/package/reactform-appco">
-                        ReactForm-Appco
-                    </a>
-                    : A powerful, flexible forms and inputs module for React.
+                    A powerful, flexible forms and inputs module for React.
                     Includes "live search" that can be used similarly to a
                     select or dropdown menu, except the list of options change
-                    with user input. <br />
-                    <a href="">GitHub</a>
+                    with user input. The Form class does not render anything to
+                    the UI. It simply attaches logic to your existing form to
+                    automate processing and submission using React state and
+                    Ajax. There is an optional Inputs componet which does render
+                    an html input element but it is not required for use with
+                    the Form class.
                     <br />
-                    Technologies uses: React, Webpack and Babel.
-                </p>
-            </li>
-            <li className="list">
-                <p>
-                    <a href="https://www.npmjs.com/package/lightbox-appco">
-                        LightBox
+                    <br />
+                    Technologies used: React, Webpack and Babel.
+                    <br />
+                    <br />
+                    <a href="https://github.com/josephplaugher/ReactForm-AppCo">
+                        GitHub
+                    </a>{' '}
+                    |{' '}
+                    <a href="https://www.npmjs.com/package/reactform-appco">
+                        NPM
                     </a>
-                    : A "popup" window module.
-                    <br />
-                    <a href="">GitHub</a>
-                    <br />
-                    Technologies uses: React, Webpack and Babel. A module for
-                    making your markup draggable.
                 </p>
             </li>
             <li className="list">
+                <h3>LightBox-AppCo</h3>
                 <p>
-                    <a href="https://www.npmjs.com/package/menu-appco">Menu</a>:
-                    A closeable menu module.
+                    A fully stylable and customizable "popup" window component
+                    for React.
                     <br />
-                    <a href="">GitHub</a>
                     <br />
-                    Technologies uses: React, Webpack and Babel. A module for
+                    Technologies used: React, Webpack and Babel. A module for
                     making your markup draggable.
+                    <br />
+                    <br />
+                    <a href="https://github.com/josephplaugher/lightbox-appco">
+                        GitHub
+                    </a>{' '}
+                    |{' '}
+                    <a href="https://www.npmjs.com/package/lightbox-appco">
+                        NPM
+                    </a>
+                </p>
+            </li>
+            <li className="list">
+                <h3>Menu-AppCo</h3>
+                <p>
+                    {' '}
+                    A closeable menu component for React.
+                    <br />
+                    <br />
+                    Technologies used: React, Webpack and Babel. A module for
+                    making your markup draggable.
+                    <br />
+                    <br />
+                    <a href="https://github.com/josephplaugher/Menu-AppCo">
+                        GitHub
+                    </a>{' '}
+                    | <a href="https://www.npmjs.com/package/menu-appco">NPM</a>
                 </p>
             </li>
         </ul>
-        <h1 className="subheadline">Other Skills.</h1>
+        <h2 className="subheadline">Other Skills.</h2>
         <ul>
             <li className="list">
                 <p>
@@ -191,9 +215,7 @@ const Portfolio = () => (
                 </p>
             </li>
             <li className="list">
-                <p className="text">
-                    I know PHP and jQuery and I am prepared to use them.
-                </p>
+                <p>I know PHP and jQuery and I am prepared to use them.</p>
             </li>
         </ul>
     </>
